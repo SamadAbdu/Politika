@@ -1,0 +1,141 @@
+/* Оформление моего опыта */
+ /* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+ body {
+ 	background-color: #111111;
+ 	background-image: url(images/fon.jpg);
+ 	background-repeat: repeat-x;
+ 	background-attachment: fixed;
+ 	 } 
+ #page {
+width: 960px;
+margin: 0 auto;
+ }
+.red {
+font-weight: bolder;
+color: red;
+}
+.violet {
+font-weight: bolder;
+color: purple;
+}
+.blue {
+font-weight: bolder;
+color: blue;
+}
+.green {
+font-weight: bolder;
+color: green;
+}
+.Kommunism {
+font-weight: bolder;
+color: red;
+}
+.Konservatism {
+font-weight: bolder;
+color: purple;
+}
+.Liberalism {
+font-weight: bolder;
+color: blue;
+}
+.Sotsialism {
+	font-weight: bolder;
+    color: green;
+}
+.yellow {
+	font-weight: bolder;
+	color: yellow;
+}
+.white {
+	font-weight: bolder;
+	color: white;
+}
+#navigation {
+	height: 75px;
+    padding-right: 350px;
+	padding-left: 300px;
+}
+#navigation ul li {
+	float: right;
+	position: relative;
+}
+#navigation ul li a {
+	color: #fff;
+	padding: 0 10px;
+	font-family: italic;
+	text-decoration: none;
+	line-height: 50px;
+	display: block;
+	height: 50px;
+}
+#navigation ul li a:hover {
+	background: #000;
+	text-decoration: underline;
+}
+#navigation .dropdown {
+position: absolute;
+top: 100%;
+width: 150px;
+background: #222222;
+display: none;
+}
+#navigation li:hover .dropdown {
+	display: block;
+}
+#navigation .dropdown li {
+	width: 100%;
+	height: 25;
+}
+.logo {
+	padding-left: 550px;
+}
+.search {
+	padding-left: 550px;
+}
